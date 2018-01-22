@@ -65,13 +65,18 @@ a{
 }
 
 li a:hover{
-	color: #cccccc;
+	color: rgba(214, 219, 233, 0.87);
 	font-size: 1.1em;
+    font-weight:800;
+ 
 }
 .nav{
 	height: 5em;
-	padding: o.5em 4em 0 5em;
+	padding: .2em 4em .6em 1em;
+    background-color:rgba(0, 0, 0, 0.21);
+    border-bottom:inset .15em white;
 }
+
 .top{
 
 	background-image: url(../images/banner.jpg);
@@ -101,7 +106,7 @@ li a:hover{
 
 #box1 p, #box2 p{
 	width: 80%;
-	margin: auto;
+	margin: 1em auto 1em auto;
 }
 
 .banner h5{
@@ -132,6 +137,16 @@ li a:hover{
 
 }
 
+.boxes a {
+    border: solid 0.1em white;
+    padding: 0.2em;
+    margin-top:1em;
+}
+
+.boxes a:hover {
+        background-color: rgba(0, 0, 0, 0.6);
+        font-weight:900;
+ }
 
 .content{
 	text-align: center;
@@ -142,13 +157,14 @@ li a:hover{
 	width: 50%;
 	text-align: center;
 	color: white;
-	
+	padding-bottom:2em;
 }
 
 #box1{
 	background-color: #991f00;
 	float: left;
 }
+
 
 #box2{
 	background-color: #000066;
