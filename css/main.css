@@ -1,0 +1,173 @@
+.logo{
+	float: left;
+}
+
+.nav-links{
+	float: right;
+    margin-right:2em;
+}
+
+.logo h2{
+	color: white;
+	padding: 1em;
+}
+hr{
+	width: 100%;
+	color: white;
+}
+.banner h1+hr{
+	width:30%;
+	color: white;
+	float: left;
+}
+.banner h5+hr{
+	width:30%;
+	color: white;
+	float: right;
+}
+.banner h5{
+	display: inline;
+	font-size: 1.3em;
+}
+.banner a{
+	border: white 0.2em solid;
+	padding: 0.5em;
+	background-color: rgba(255, 255, 255, 0.36)
+}
+
+.banner > hr{
+   height:0.1em;
+   background-color:rgb(255, 255, 255);
+}
+
+.banner p{
+	word-spacing: 0.3em;
+	text-transform: uppercase;
+    margin-bottom:2em;
+}
+.logo img, .logo h2{
+	display: inline;
+}
+.nav-links li{
+	float: left;
+	list-style: none;
+	padding: 1em;
+	text-transform: uppercase;
+}
+a{
+	color: white;
+	text-decoration:none;
+
+}
+.banner a:hover{
+	font-size: 1.1em;
+	background-color: rgba(0, 0, 0, 0.36);
+}
+
+li a:hover{
+	color: #cccccc;
+	font-size: 1.1em;
+}
+.nav{
+	height: 5em;
+	padding: o.5em 4em 0 5em;
+}
+.top{
+
+	background-image: url(../images/banner.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+.content h3{
+	word-spacing: 0.6em;
+	border: solid 0.2em black;
+	width: 50%;
+	margin: auto;
+}
+.content p{
+	width: 60%;
+	margin: auto;
+	padding: 1em;
+
+}
+.banner h1{
+	font-size: 3.5em;
+	font-family:'Castellar', 'Book Antiqua', Algerian;
+    font-weight:900;
+	word-spacing: 0.3em;
+	letter-spacing: 0.1em;
+}
+
+#box1 p, #box2 p{
+	width: 80%;
+	margin: auto;
+}
+
+.banner h5{
+	font-family: 'Fjalla One', sans-serif;
+}
+
+.logo img{
+	margin-left: 5em;
+	margin-top: 1em;
+}
+.banner{
+	text-align: center;
+	padding: 5em;
+	color: white;
+}
+.banner p{
+	font-family: 'Play', sans-serif;
+}
+
+.boxes h4{
+	border: solid 0.1em white;
+	color: white;
+	width: 30%;
+	margin: auto;
+	padding: 0.2em;
+	margin-top: 1em;
+	margin-bottom: 1em;
+
+}
+
+
+.content{
+	text-align: center;
+	padding: 1em;
+}
+
+#box1, #box2{
+	width: 50%;
+	text-align: center;
+	color: white;
+	
+}
+
+#box1{
+	background-color: #991f00;
+	float: left;
+}
+
+#box2{
+	background-color: #000066;
+	float: right;
+}
+.footer {
+	clear: both;.
+	background-color: black;
+	color: #ff8000;
+	padding: 1em;
+}
+
+
+table{
+	
+	width: 100%;
+}
+
+.footer{
+    padding: 3em 5em 2em 3em;
+    background-color:black;
+}
